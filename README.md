@@ -56,21 +56,22 @@
 - name_of_final_text_file = zadejte název konečného komprimovaného textového souboru
 
 ### "[USER-LOG]":
-- wants_print_logs = vyberte, zda skutečně chcete tisknout nějaké protokoly
+- wants_print_logs = vyberte, zda skutečně chcete vypsat nějaké informace
     možnosti: "Y" - ano, "N" - ne
 - Filtrujte podle toho, kdy byla provedena informace/změna komprese.
-- start_date_time = vyberte počáteční datum a čas ve formátu "Y-m-d H:M:S" rozsahu protokolů
-    možnosti: formát data a času (například: "2024-01-09 20:36:08"), "last_run" - filtrujte pouze protokoly z posledního běhu, "None" - nezajímá vás tato možnost, informace v protokolu nebudou filtrovány tímto hodnotou
-- end_date_time = vyberte konečný datum a čas ve formátu "Y-m-d H:M:S" rozsahu protokolů
-    možnosti: formát data a času (například: "2024-01-09 20:36:08"), "last_run" - filtrujte pouze protokoly z posledního běhu, "None" - nezajímá vás tato možnost, informace v protokolu nebudou filtrovány tímto hodnotou
+- start_date_time = vyberte počáteční datum a čas ve formátu "Y-m-d H:M:S" rozsahu informací
+    možnosti: formát data a času (například: "2024-01-09 20:36:08"), "last_run" - filtrujte pouze informace z posledního běhu, "None" - nezajímá vás tato možnost, filtr nebude brat tuto hodnotu v potaz
+- end_date_time = vyberte konečný datum a čas ve formátu "Y-m-d H:M:S" rozsahu infromací
+    možnosti: formát data a času (například: "2024-01-09 20:36:08"), "last_run" - filtrujte pouze informace z posledního běhu, "None" - nezajímá vás tato možnost, filtr nebude brat tuto hodnotu v potaz
     poznámka: Chcete-li filtrovat informace v protokolu podle data a času, musíte nastavit obě proměnné "start_date_time" a také "end_date_time" s totožným typem hodnot
-- Filtrujte podle toho, jak byla změna komprese hodnocena skóre. (od "0" po kladná čísla)
+- Filtrujte podle toho, jakým skórem byla změna komprese hodnocena. (od "0" po kladná čísla)
 - min_score = vyberte minimální hodnotu skóre
-    možnosti: číslo (například: "6", "0"), "None" - nezajímá vás tato možnost, informace v protokolu nebudou filtrovány tímto hodnotou
+    možnosti: číslo (například: "6", "0"), "None" - nezajímá vás tato možnost, filtr nebude brat tuto hodnotu v potaz
 - max_score = vyberte maximální hodnotu skóre
-    možnosti: číslo (například: "12", "5"), "None" - nezajímá vás tato možnost, informace v protokolu nebudou filtrovány tímto hodnotou
-    poznámka: Chcete-li filtrovat informace v protokolu podle skóre, musíte nastavit obě proměnné "min_score" a také "max_score" s totožným typem hodnot
+    možnosti: číslo (například: "12", "5"), "None" - nezajímá vás tato možnost, filtr nebude brat tuto hodnotu v potaz
+    poznámka: Chcete-li filtrovat informace podle skóre, musíte nastavit obě proměnné "min_score" a také "max_score" s totožným typem hodnot
 - type_of_change = vyberte, jaký typ změny byl proveden v kompresi
-  možnosti: "zkráceno", "nahrazeno", "symbolizováno", "None" - nezajímá vás tato možnost, informace v protokolu nebudou filtrovány tímto hodnotou
-
-Komprimovaný textový soubor, který lze přečíst, bude ve složce, kterou nastavíte v config.ini, spolu s dalšími soubory, jako jsou slovník zkratky a slovník symbolů. Tyto soubory musíte použít k správnému čtení komprimované
+  možnosti: "zkráceno", "nahrazeno", "symbolizováno", "None" - nezajímá vás tato možnost, filtr nebude brát tuto hodnotu v potaz
+- Komprimovaný textový soubor, který lze přečíst, bude ve složce, kterou nastavíte v config.ini, spolu s dalšími soubory, jako jsou slovník zkratky a slovník symbolů.
+- Tyto soubory jsou nutné použít k správnému čtení komprimovaného textového souboru
+- Pokud je v zkomprimovaném textovém souboru otazník a za ním nějaký symbol, tento symbol má k sobě přířazené slovo ve slovníku.
