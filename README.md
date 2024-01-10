@@ -1,23 +1,23 @@
 # ALFA 2 | komprese textoveho souboru
 
-### Funcionalita
+## Funcionalita
 - Program má za úkol zredukovat velikost textového souboru, tedy zkomprimovat textový soubor.
 - Na začátku program vypíše nápovědu, jak používat program a ovládat ho pomocí konfiguračního souboru ve složce "config/config.ini".
 - Na konci program vypíše logy z loggovacího souboru podle hodnot nastavených uživatelem v konfiguračním souboru.
 - Při prvním zapnutí jsou v konfiguračním souboru nastaveny defaultní hodnoty.
 - Zkompromovaný soubor má zachováný smysl a je stále k přečtení s využitím všech slovníků v output složce.
 
-### Instalace a spuštění
+## Instalace a spuštění
 - pro úspěšné zapnutí programu je zapotřebí mít na zařízení nainstalovaný python
 - stáhneme si zip soubor a extrahujeme ho
 - spustíme si windows cmd
 - dojdeme pomocí příslušných příkazů do složky projektu (kompreseSouboruAlfa)
 - poté program spustíme pomocí příkazu: "python main.py"
 
-### Hlavní Třídy
-#### Compressor
+## Hlavní Třídy
+### Compressor
 - Třída obsahuje metody pro kompletní kompresi textového souboru.
-##### metody:
+#### metody:
 - compress() - spouští všechny metody pro kompresi
 - count_num_of_words() - spočítá všechny slova v textovém souboru
 - fill_dic_by_the_most_common_words() - naplní list slovy s největší četností - využití frekvenční analýzi
@@ -34,11 +34,11 @@
 - check_directory_path() - zkontroluje správnost cesty
 - write_final_text_file() - zapíše finání verzi zkomprimovaného souboru
 - Tato třída generuje různé verze rozvrhů pomocí náhodného vybírání předmětů. Pravděpodobnost, že se budou jakékoliv předměty totžné, je velmi mizivá. Každopádně i tyto varianty jsou bezpečně ohlídané, aby k nim nedocházelo. Třída slouží převážně pro vygenerování co nejvíce různých rozvrhů a nezáleží na tom, jak moc jsou kvalitní. Jde zkrátko o to, vygenerovat jich co nejvíce.
-#### Loader
+### Loader
 - Obsahuje metody pro načítání statických souborů ".json" a ".txt".
 - Kontroluje správnost cest.
-#### Template
+### Template
 - Tato třída obsahuje listy a dictionary, keteré obsahují načtené hodnoty ze statických souborů ".json".
-#### Logger
+### Logger
 - Tato třída slouží pro zapisování do log souborů (ingo.log a error.log ve složce log/) 
 - Obsahuje metodu pro filtraci informací z informačního log souboru pro výpis před ukočením programu.
