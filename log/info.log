@@ -1,0 +1,66 @@
+INFO:root:2024-01-10 23:42:15: Program started!
+INFO:root:2024-01-10 23:42:15: File hint successfully loaded!
+INFO:root:2024-01-10 23:42:15: Data of hint loaded into list!
+INFO:root:2024-01-10 23:42:15: File text successfully loaded with original size: 4033 bytes!
+INFO:root:2024-01-10 23:42:15: Data of text file loaded into list!
+INFO:root:2024-01-10 23:42:15: Change: deleted "Jakože,", Score: deleted 7 characters!
+INFO:root:2024-01-10 23:42:15: Change: deleted "noo", Score: deleted 3 characters!
+INFO:root:2024-01-10 23:42:15: Change: deleted "jakoby?", Score: deleted 7 characters!
+INFO:root:2024-01-10 23:42:15: Change: deleted "jakoby,", Score: deleted 7 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Kilogramů" to "Kg", Score: deleted 7 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "systém" to "sys.", Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "procesu" to "proc.", Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "například" to "např.", Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "internetu" to "net", Score: deleted 6 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "internet" to "net", Score: deleted 5 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "internetu" to "net", Score: deleted 6 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Internet" to "Net", Score: deleted 5 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "internet" to "net", Score: deleted 5 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Například" to "Např.", Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "například," to "např.,", Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "například:" to "např.:", Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Informace," to "Info.,", Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "informace" to "info.", Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Avšak" to "Však", Score: deleted 1 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Avšak" to "Však", Score: deleted 1 characters!
+INFO:root:2024-01-10 23:42:15: Change: shorted "Avšak" to "Však", Score: deleted 1 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "školský zákon" to "ŠZ" 3 times in 1. row, Score: deleted 33 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "internet věcí" to "IV" 1 times in 2. row, Score: deleted 11 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "klíčovým prvkem" to "KP" 2 times in 2. row, Score: deleted 26 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "efektivně pracovat" to "EP" 1 times in 2. row, Score: deleted 16 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "internet věcí" to "IV" 1 times in 3. row, Score: deleted 11 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "klíčovým prvkem" to "KP" 2 times in 3. row, Score: deleted 26 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "efektivně pracovat" to "EP" 2 times in 3. row, Score: deleted 32 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "internet věcí" to "IV" 1 times in 4. row, Score: deleted 11 characters!
+INFO:root:2024-01-10 23:42:15: Change: replaced "efektivně pracovat" to "EP" 1 times in 4. row, Score: deleted 16 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "textu" to "?E" 2 times in 1. row, Score: deleted 6 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "bylo" to "?$" 2 times in 1. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "zařízení" to "?l" 3 times in 2. row, Score: deleted 18 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "data" to "?T" 2 times in 2. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "bylo" to "?$" 1 times in 2. row, Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "třeba" to "?p" 2 times in 2. row, Score: deleted 6 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "těmito" to "?#" 1 times in 2. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "sdílet" to "?Y" 2 times in 2. row, Score: deleted 8 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "nové" to "?{" 2 times in 2. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "mezi" to "?D" 2 times in 2. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "informací" to "?+" 1 times in 2. row, Score: deleted 7 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "textu" to "?E" 2 times in 3. row, Score: deleted 6 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "zařízení" to "?l" 3 times in 3. row, Score: deleted 18 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "data" to "?T" 2 times in 3. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "bylo" to "?$" 1 times in 3. row, Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "třeba" to "?p" 1 times in 3. row, Score: deleted 3 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "těmito" to "?#" 2 times in 3. row, Score: deleted 8 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "sdílet" to "?Y" 1 times in 3. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "nové" to "?{" 1 times in 3. row, Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "mezi" to "?D" 1 times in 3. row, Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "informací" to "?+" 2 times in 3. row, Score: deleted 14 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "textu" to "?E" 2 times in 4. row, Score: deleted 6 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "data" to "?T" 2 times in 4. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "třeba" to "?p" 1 times in 4. row, Score: deleted 3 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "těmito" to "?#" 1 times in 4. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "sdílet" to "?Y" 1 times in 4. row, Score: deleted 4 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "nové" to "?{" 1 times in 4. row, Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "mezi" to "?D" 1 times in 4. row, Score: deleted 2 characters!
+INFO:root:2024-01-10 23:42:15: Change: symbolized "informací" to "?+" 1 times in 4. row, Score: deleted 7 characters!
+INFO:root:2024-01-10 23:42:15: Compressed file successfully written to output/final.txt with size of file: 3494 bytes!
+INFO:root:2024-01-10 23:42:15: Program ended!

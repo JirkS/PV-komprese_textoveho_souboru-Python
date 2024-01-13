@@ -1,0 +1,27 @@
+Welcome to compressor app!
+The given text file must be in CZECH language with diacritics! In other way the program will not work properly!
+Everything necessary is set in config.ini file, which can be found in folder config/config.ini
+For user are parts "USER-STATIC" - basic set up and "USER-LOG" - for print specific informations from log file.
+1. "[USER-STATIC]":
+text_file_path = write a path of the text file, which you want to compress.
+path_to_save_output_files = write a path of dictionary, where should be all outputs files(compressed text file and additional files) saved.
+name_of_final_text_file = write name of final compressed text file
+2. "[USER-LOG]":
+wants_print_logs = choose if you actually want to print any logs
+                options: "Y" - yes, "N" - no
+Filter by when the log information/change of compression was made.
+start_date_time = choose starting date time in format "Y-m-d H:M:S" of range logs
+                options: format date time (for example: "2024-01-09 20:36:08"), "last_run" - filter only logs from the last run, "None" - you don't care about this option, log informations will not be filtered by this value
+end_date_time = choose ending date time in format "Y-m-d H:M:S" of range logs
+                options: format date time (for example: "2024-01-09 20:36:08"), "last_run" filter only logs from the last run, "None" - you don't care about this option, log informations will not be filtered by this value
+    note: If you want to filter log informations by date time, you must set both variables "start_date_time" and also "end_date_time" with same type of values
+Filter by how good was change of compression evaluated by score. (from "0" to positive numbers)
+min_score = choose minimum of range score
+                options: number (for example: "6", "0"), "None" - you don't care about this option, log informations will not be filtered by this value
+max_score = choose maximum of range score
+                options: number (for example: "12", "5"), "None" - you don't care about this option, log informations will not be filtered by this value
+    note: If you want to filter log informations by the score, you must set both variables "min_score" and also "max_score" with same type of values
+type_of_change = choose which type of change compression was made
+                options: "shorted", "replaced", "symbolized", "None" - you don't care about this option, log informations will not be filtered by this value
+The compressed text file, which can be readen, will be in directory, which you set in config.ini with additional files like abbreviations dictionary and symbols dictionary.
+This files you must use to properly read the compressed text file.
